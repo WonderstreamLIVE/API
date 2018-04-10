@@ -12,8 +12,8 @@ To retrieve your unique token, you will first have to login to your Wonderstream
 
 ## API Endpoints
 
-`https://wonderstream.net/api/v1/current/` `{{GET}}`
-Displays the currently logged in user’s data. 
+`https://wonderstream.net/api/v1/current/` 
+* `{{GET}}` Displays the currently logged in user’s data. 
 
 ---
 
