@@ -60,4 +60,19 @@ Displays the currently logged in user’s data.
 `https://wonderstream.net/api/v1/livestreams/<id>/stop/` 
 * `{{ PUT }}` Forces a livestream to stop, even if it’s technically not scheduled to. _(Requires the token to match that of the livestream ID’s Owner)_
 
+---
 
+`https://wonderstream.net/api/v1/featured/`
+* `{{ GET }}` Displays a list of the most recent featured livestreams found on https://wonderstream.net/watch-now/
+
+---
+
+`https://wonderstream.net/api/v1/featured/promoted/` 
+* `{{ GET }}` Displays a list of the most recent promoted livestreams found on https://wonderstream.net/watch-now/
+
+---
+
+`https://wonderstream.net/api/v1/users/<username>/livestreams/`
+* `{{ GET }}` Retrieves a list of livestreams of a specific user.
+
+---
