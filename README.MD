@@ -51,3 +51,13 @@ Displays the currently logged in user’s data.
 * `POST` Create a new sponsor associated with the livestream event. _(Requires the token to match that of the livestream ID’s Owner)_
 
 ---
+
+`https://wonderstream.net/api/v1/livestreams/<id>/start/` 
+* `{{PUT}}` Forces a livestream to start, even if it’s technically not scheduled to. _(Requires the token to match that of the livestream ID’s Owner)_
+
+---
+
+`https://wonderstream.net/api/v1/livestreams/<id>/stop/` 
+* `{{ PUT }}` Forces a livestream to stop, even if it’s technically not scheduled to. _(Requires the token to match that of the livestream ID’s Owner)_
+
+
