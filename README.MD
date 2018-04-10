@@ -17,25 +17,25 @@ Displays the currently logged in user’s data.
 
 ---
 
-`https://wonderstream.net/api/v1/current/payments/` `{{ GET }}`
-Displays currently logged in user’s payment history.
+`https://wonderstream.net/api/v1/current/payments/` 
+* `{{ GET }}` Displays currently logged in user’s payment history.
 
 ---
 
-`https://wonderstream.net/api/v1/current/livestreams/` `{{ GET }}`
-Displays currently logged in user’s livestreams. 
+`https://wonderstream.net/api/v1/current/livestreams/` 
+* `{{ GET }}` Displays currently logged in user’s livestreams. 
 
 ---
 
-`https://wonderstream.net/api/v1/purchase/` `{{ POST }}`
-* Purchases a new livestream, and bills the credit card on file that belongs to the user account associated with the authentication token.
-* When creating a new livestream, you will have to also submit the email address that the token belongs to.
-* Requires the token to match the user that is being passed. For example, if JaneDoe has the token 1234, a successful POST can only be made if the username specified is JaneDoe, with the token 1234 passed a long in the header. 
+`https://wonderstream.net/api/v1/purchase/` 
+* `{{ POST }}` Purchases a new livestream, and bills the credit card on file that belongs to the user account associated with the authentication token.
+* _When creating a new livestream, you will have to also submit the email address that the token belongs to._
+* _(Requires the token to match the user that is being passed. For example, if JaneDoe has the token 1234, a successful POST can only be made if the username specified is JaneDoe, with the token 1234 passed a long in the header.)_ 
 
 ---
 
-`https://wonderstream.net/api/v1/livestreams/` `{{ GET }}`
-Returns a list of all publically viewable livestreams. 
+`https://wonderstream.net/api/v1/livestreams/` 
+* `{{ GET }}` Returns a list of all publically viewable livestreams. 
 
 ---
 
